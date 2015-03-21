@@ -1,0 +1,33 @@
+{
+	"name" : "ZF2myexamples",
+	"description" : "ZF2 Examples",
+	"authors" : [{
+			"name" : "Daryl Wood",
+			"email" : "daryl@datashuttle.net",
+			"homepage" : "http://www.datashuttle.net",
+			"role" : "engineer"
+		}
+	],
+	"keywords" : [
+		"zf2myexamples"
+	],
+	"require" : {
+		"zendframework/zftool" : "dev-master",
+		"zendframework/zendframework" : "2.*",
+        "zendframework/zend-developer-tools": "dev-master",
+        "zf-commons/zfc-user" : "*",
+		"php" : ">=5.5",
+        "ocramius/proxy-manager" : ">=0.5",
+        "doctrine/annotations" : ">=1.0",
+        "ircmaxell/random-lib" : ">=1.0",
+        "zendframework/zendpdf" : ">=1.0",
+        "zendframework/zendservice-recaptcha" : ">=1.0",
+        "sensiolabs/security-checker" : ">=1.0",
+        "symfony/yaml" : ">=1.0",
+        "guzzle/guzzle" : ">=1.0",
+        "predis/predis" : ">=1.0",
+        "videlalvaro/php-amqplib" : ">=1.0",
+        "videlalvaro/php-amqplib" : ">=1.0",
+        "ocramius/generated-hydrator" : ">=1.0"
+	}
+}

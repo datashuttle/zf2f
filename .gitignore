@@ -1,0 +1,8 @@
+!.gitignore
+.buildpath
+.project
+.settings
+.~lock.*
+composer.lock
+vendor/*
+.idea
