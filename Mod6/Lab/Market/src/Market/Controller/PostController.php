@@ -17,7 +17,7 @@ class PostController
 
     public function indexAction()
     {
-        return new viewModel();
+        return new viewModel(['categories' => $this->categories]);
     }
 
     /**

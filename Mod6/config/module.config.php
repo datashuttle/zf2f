@@ -31,41 +31,13 @@ return array(
 		),
 	),
     'controllers' => array(
-    	'aliases' => array(
-    		'alt' => 'market-view-controller',
-    	),
         'invokables' => array(
-            'market-city-controller' => 'Market\Controller\CityCodesController',
-        ),
-    	'factories' => array(
             'market-index-controller'  => 'Market\Factory\IndexControllerFactory',
             'market-view-controller'   => 'Market\Factory\ViewControllerFactory',
-            'market-post-controller'   => 'Market\Factory\PostControllerFactory',
-            'market-delete-controller' => 'Market\Factory\DeleteControllerFactory',
-    	),
+        ),
     ),
     'router' => array(
         'routes' => array(
-        	'home' => array(
-                'type'    => 'Literal',
-                'options' => array(
-                    'route'    => '/',
-                    'defaults' => array(
-                        'controller'    => 'market-index-controller',
-                        'action'        => 'index',
-                    ),
-                ),
-        	),
-        	'city-lookup' => array(
-                'type'    => 'Literal',
-                'options' => array(
-                    'route'    => '/city-lookup',
-                    'defaults' => array(
-                        'controller'    => 'market-city-controller',
-                        'action'        => 'lookup',
-                    ),
-                ),
-        	),
             'market' => array(
                 'type'    => 'Literal',
                 'options' => array(

@@ -1,13 +1,12 @@
 <div class="container">
-    <div class="span2">
-        <h3>Categories</h3>
-        <?= $this->htmlList($this->categories)?>
+    <div class="col-lg-2">
+        <?= $this->categories ?>
     </div>
-    <div class="span8">
+    <div class=" col-lg-8">
         <?= $this->content;?>
-        <hr>
-        <footer>
-            <p>&copy; 2006 - <?php echo date('Y') ?> by Zend Technologies Ltd. <?php echo $this->translate('All rights reserved.') ?></p>
-        </footer>
     </div>
 </div> <!-- /container -->
+<hr>
+<footer>
+    <p>&copy; 2006 - <?php echo date('Y') ?> by Zend Technologies Ltd. <?php echo $this->translate('All rights reserved.') ?></p>
+</footer>
